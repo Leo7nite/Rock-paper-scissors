@@ -1,0 +1,84 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+
+body {
+    background-color: #3e3e3e;
+}
+header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+header h1 {
+    font-size: 50px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    background-color: pink;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 20px 0;
+    transition: all 0.5s ease-in-out;
+}
+h1:first-child {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: wheat;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    padding-top:30px;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: wheat;
+    box-sizing: border-box;
+}
+main button {
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(155, 42, 42);
+    color: whitesmoke;
+    font-size: large;
+    width: 100px;
+    border: none;
+    padding: 0;    
+    margin: 10px;
+    height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+main button:hover {
+    
+    background-color: rgb(231, 179, 116);
+    color:#3e3e3e;
+    font-weight: bold;
+}
+.reset-btn {
+    
+    justify-content: center;
+}
